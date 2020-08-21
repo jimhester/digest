@@ -69,7 +69,7 @@ FILE* open_with_widechar_on_windows(const char* txt) {
     return out;
 }
 
-SEXP digest(SEXP Txt, SEXP Algo, SEXP Length, SEXP Skip, SEXP Leave_raw, SEXP Seed) {
+SEXP igest(SEXP Txt, SEXP Algo, SEXP Length, SEXP Skip, SEXP Leave_raw, SEXP Seed) {
     size_t BUF_SIZE = 1024;
     FILE *fp=0;
     char *txt;
